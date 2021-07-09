@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+body{
+	animation: fade-in 2s ease-in;
+}
+
+.section{
+	position: relative;
+  width: 100%;
+  height: 100vh;
+	cursor: default;
+}
+
+.content{
+  position: absolute;
+  left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+hr{
+	border: 3px solid #000;
+	background: #000;
+}
+
+.Logo{
+	background-image: url(./images/logo.png);
+  background-size: cover;
+  width: 527px;
+  height: 400px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.MuiButton-contained {
+  color: #FFF;
+  background-color: #F27649;
+}
+
+@media (max-width: 991px){
+  .Logo{
+    width: 395px;
+    height: 300px;
+  }
+}
+
+@keyframes fade-in{
+	
+	0%{
+		opacity: 0;
+	}
+	
+	100%{
+		opacity: 1;
+	}
+}

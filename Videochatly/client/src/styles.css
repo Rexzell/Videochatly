@@ -43,11 +43,6 @@ hr{
   margin-top: 20px;
 }
 
-.MuiButton-contained {
-  color: #FFF;
-  background-color: #F27649;
-}
-
 @media (max-width: 991px){
   .Logo{
     width: 395px;
